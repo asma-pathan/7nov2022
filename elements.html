@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		/*function user(){
+			var userName=document.getElementById("username").value
+			var textData=document.getElementsByClassName("para")
+			console.log(textData.length)
+			for(var i=0;i<textData;i++){
+				console.log(textData[i].innerHTML)
+			}
+			var listOfUl=document.getElementsByTagName("li")
+			for(var d=0;d<listOfUl.length;d++){
+				console.log(listOfUl[d].innerHTML)
+			}
+		}*/
+		function user(){
+			var userName=document.getElementById("username").value
+			document.getElementById("demo").innerHTML=userName
+		}
+
+	</script>
+</head>
+<body>
+	<!-- <input id="username"/>
+	<p class="para">how are u</p>
+	<p class="para">i am fine</p>
+	<h1 class="para">Thanks for asking</h1>
+	<ul>
+		
+		<li>one</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+		<li>one</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+		<li>one</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+	</ul>
+	<button onclick="user()">Submit</button> -->
+	<input id="username"/>
+	<h1>Name is:<span id="demo">Iam unique</span></h1>
+	<button onclick="user()">Submit</button>
+</body>
+</html>
